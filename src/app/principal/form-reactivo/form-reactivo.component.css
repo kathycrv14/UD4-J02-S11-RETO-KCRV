@@ -1,0 +1,30 @@
+.sectionGeneral{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: wrap;
+    width: 10rem;
+    width: 100vw;
+}
+
+.sectionForm{
+    border: 1px solid;
+    border-color: rgb(84, 192, 255);
+    padding: 1rem;
+}
+
+h1{
+    padding-bottom: 1rem;
+}
+
+form{
+    padding-bottom: 1rem;
+}
+
+input{
+    width: 100%;
+}
+
+.txtValue{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

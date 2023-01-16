@@ -1,0 +1,23 @@
+<section class="sectionGeneral">
+    <section class="sectionForm">
+        <section>
+            <h1>Formulario Reactivo</h1>
+        </section>
+        <section>
+            <!--********** FORM **********-->
+            <form action="row" [formGroup]="nombreform">
+                <section class="col-12">
+                    <label for="">Name:</label>
+                </section>
+                <section class="col-12">
+                    <input type="text" formControlName="name">  
+                </section>
+            </form>
+            <!--****************-->
+        </section>
+        <section>
+            <p class="txtValue">Value: </p>
+            <p>{{ nombreform.value.name }}</p>
+        </section>
+    </section>
+</section>
